@@ -20,9 +20,9 @@
     background: rgba(255, 0, 225, 0.151);
 }
 @font-face { font-family: 'Immortalist'; 
-    src: url("/assets/font/Immortalist-Light.woff") format('woff');
+    src: url("assets/font/Immortalist-Light.woff") format('woff');
     font-family: 'BLOB'; 
-    src: url("/assets/font/BLOB-Regular.woff") format('woff');
+    src: url("assets/font/BLOB-Regular.woff") format('woff');
 } 
 h1 {
        font-family: Immortalist;
