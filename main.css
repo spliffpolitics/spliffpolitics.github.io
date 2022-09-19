@@ -15,14 +15,17 @@ rgba(255, 0, 225, 0.2)
 
 @font-face {font-family: 'BLOB'; 
     src: url("assets/font/BLOB-Regular.woff") format('woff');
+    font-display: swap;
 } 
 @font-face { font-family: 'Immortalist'; 
   src: url("assets/font/Immortalist-Light.woff") format('woff');
   font-family: 'Immortalist'; 
   src: url("assets/font/Immortalist-Light.otf") format('otf');
+  font-display: swap;
 }
 @font-face { font-family: 'Saint-Regular';
   src: url("assets/font/Saint\ Regular\ copy.ttf") format('ttf');
+  font-display: swap;
 }
 h1 {
        font-family:Immortalist !important;
