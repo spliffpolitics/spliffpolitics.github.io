@@ -43,7 +43,6 @@
   width: 60vw;
   height: 50vh;
 }
-
   .zeroposition {
   position: absolute;
   z-index: 1;
@@ -718,8 +717,13 @@ progress {
 .img-fluid {
   max-width: 100%;
   height: auto;
+  position: relative;
+  z-index: -1;
 }
-
+.positioner{
+  top: -6vh;
+left: 0vw;
+}
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
