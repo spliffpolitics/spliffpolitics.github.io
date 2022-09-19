@@ -10,18 +10,30 @@
     background-position-y: center;
     background-repeat: no-repeat;
 }
+.zeroposition {
+  position: absolute;
+  z-index: 1;
+}
+.minusONEposition {
+  position: absolute;
+  top: 8rem;
+  left: 2rem;
+  z-index: -1;
+}
 @font-face {font-family: 'BLOB'; 
-    src: url("assets/font/BLOB-Regular.woff") format('woff');
+    src: url("assets/font/BLOB-Regular.woff") format('woff'),
+    url(/assets/font/BLOB-Regular.otf) format('otf');
     font-display: swap;
 } 
 @font-face { font-family: 'Immortalist'; 
-  src: url("assets/font/Immortalist-Light.woff") format('woff');
-  font-family: 'Immortalist'; 
-  src: url("assets/font/Immortalist-Light.otf") format('otf');
-  font-display: swap;
+    src: url("assets/font/Immortalist-Light.woff") format('woff'), 
+    url("assets/font/Immortalist-Light.otf") format('otf');
+    font-display: swap;
 }
 @font-face { font-family: 'Saint-Regular';
-  src: url("assets/font/Saint\ Regular\ copy.ttf") format('ttf');
+  src: url("assets/font/Saint\ Regular\ copy.ttf") format('ttf'),
+  url(/assets/font/Saint\ Regular.woff) format('woff'),
+  url(/assets/font/Saint\ Regular.otf) format('otf');
   font-display: swap;
 }
 h1 {
@@ -40,6 +52,13 @@ h4 {
   font-family:Saint-Regular !important;
     font-size: 50px !important;
     font-weight: 900;
+}
+h5 {
+  font-family:Saint-Regular !important;
+    font-size: 15vw !important;
+    font-weight: 900;
+    opacity: 50%;
+    color: #0b5ed7;
 }
 body {
     padding-top: 3em;
@@ -688,6 +707,8 @@ progress {
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-right: auto;
   margin-left: auto;
+  position: absolute;
+  z-index: 0;
 }
 
 @media (min-width: 576px) {
