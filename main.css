@@ -21,8 +21,6 @@
 }
 @font-face {font-family: 'BLOB'; 
     src: url("assets/font/BLOB-Regular.woff") format('woff');
-    font-family: 'GUY1976';
-    src: url("assets/font/GUY1976-ONE.otf") format('otf');
 } 
 @font-face { font-family: 'Immortalist'; 
   src: url("assets/font/Immortalist-Light.woff") format('woff');
