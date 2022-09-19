@@ -19,22 +19,33 @@
     top: 0;
     background: rgba(255, 0, 225, 0.151);
 }
-@font-face { font-family: 'Immortalist'; 
-    src: url("assets/font/Immortalist-Light.woff") format('woff');
-    font-family: 'BLOB'; 
+@font-face {font-family: 'BLOB'; 
     src: url("assets/font/BLOB-Regular.woff") format('woff');
+    font-family: 'GUY1976';
+    src: url("assets/font/GUY1976-ONE.otf") format('otf');
 } 
+@font-face { font-family: 'Immortalist'; 
+  src: url("assets/font/Immortalist-Light.woff") format('woff');
+  font-family: 'Immortalist'; 
+  src: url("assets/font/Immortalist-Light.otf") format('otf');
+}
+
 h1 {
-       font-family: Immortalist;
+       font-family:Immortalist !important;
        font-size: 50px !important;
     }
 h2 {
-    font-family:BLOB;
+    font-family:BLOB !important;
     font-size: 70px !important;
 }
 h3 {
     font-size: 10px !important;
     font-weight: normal !important;
+}
+h4 { 
+      font-family:GUY1976 !important;
+       font-size: 50px !important
+
 }
 body {
     padding-top: 3em;
