@@ -4,13 +4,47 @@
         rgba(150, 150, 150, 0.2), 
         rgba(0, 0, 0, 0.2)
       );
+    position: relative;
+    z-index: -3;
     background-attachment: fixed;
     background-position: center;
     background-position-y: center;
     background-repeat: no-repeat;
-    position: relative;
 }
-.zeroposition {
+.backgroundimageone {
+  position: absolute;
+  z-index: -2;
+  left: 6vw;
+}
+.responsiveImageone {
+  opacity: 60%;
+  width: 60vw;
+  height: 50vh;
+}
+.backgroundimagetwo {
+  position: absolute;
+  z-index: -2;
+  right: 2vw;
+  top: 80vh;
+}
+.responsiveImagetwo {
+  opacity: 80%;
+  width: 45vw;
+  height: 50vh;
+}
+.backgroundimagethree {
+  position: absolute;
+  z-index: -2;
+  top: 8vw;
+  left: 4vw
+}
+.responsiveImagethree {
+  opacity: 40%;
+  width: 60vw;
+  height: 50vh;
+}
+
+  .zeroposition {
   position: absolute;
   z-index: 1;
 }
@@ -20,25 +54,36 @@
   left: 2rem;
   z-index: -1;
 }
-@font-face {font-family: 'BLOB'; 
-    src: url(assets/font/BLOB-Regular.woff) format('woff'),
-    url(/assets/font/BLOB-Regular.otf) format('otf');
+.minusTWOposition {
+  position: absolute;
+  top: 30rem;
+  right: 10rem;
+  z-index: -1;
+  opacity: 10%;
+}
+  @font-face {font-family: 'BLOB'; 
+    src: url(assets/font/BLOB/BLOB-Regular.woff) format('woff'),
+    url(/assets/font/BLOB/BLOB-Regular.otf) format('otf');
     font-display: swap;
 } 
 @font-face { font-family: 'Immortalist'; 
-    src: url(assets/font/Immortalist-Light.woff) format('woff'), 
-    url(assets/font/Immortalist-Light.otf) format('otf');
+    src: url(assets/font/IMMORTALIST/Immortalist-Light.woff) format('woff'), 
+    url(assets/font/IMMORTALIST/Immortalist-Light.otf) format('otf');
     font-display: swap;
 }
 @font-face { font-family: 'Saint-Regular';
-  src: url(assets/font/Saint\ Regular\ copy.ttf) format('ttf'),
-  url(/assets/font/Saint\ Regular.woff) format('woff'),
-  url(/assets/font/Saint\ Regular.otf) format('otf');
+  src: url(/assets/font/SAINT/Saint\ Regular.woff) format('woff'),
+  url(/assets/font/SAINT/Saint\ Regular.otf) format('otf');
+  font-display: swap;
+}
+@font-face { font-family: 'MAINZ'; 
+  src: url(assets/font/MAINZ/Mainz.otf) format('otf'),
+  url(assets/font/MAINZ/Mainz.woff) format('woff');
   font-display: swap;
 }
 h1 {
-       font-family:Immortalist !important;
-       font-size: 50px !important;
+    font-family:Immortalist  !important;
+    font-size: 50px !important;
     }
 h2 {
     font-family:BLOB !important;
@@ -49,16 +94,21 @@ h3 {
     font-weight: normal !important;
 }
 h4 {
-  font-family:Saint-Regular !important;
+    font-family:Immortalist !important;
     font-size: 50px !important;
     font-weight: 900;
 }
 h5 {
-  font-family:Saint-Regular !important;
+    font-family:Saint-Regular !important;
     font-size: 15vw !important;
     font-weight: 900;
     opacity: 50%;
     color: #0b5ed7;
+}
+h6 {
+    font-family:MAINZ !important;
+    font-size: 6vw !important;
+    color: #4d2b7175;
 }
 body {
     padding-top: 3em;
