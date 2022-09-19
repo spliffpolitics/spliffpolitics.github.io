@@ -21,17 +21,17 @@
   z-index: -1;
 }
 @font-face {font-family: 'BLOB'; 
-    src: url("assets/font/BLOB-Regular.woff") format('woff'),
+    src: url(assets/font/BLOB-Regular.woff) format('woff'),
     url(/assets/font/BLOB-Regular.otf) format('otf');
     font-display: swap;
 } 
 @font-face { font-family: 'Immortalist'; 
-    src: url("assets/font/Immortalist-Light.woff") format('woff'), 
-    url("assets/font/Immortalist-Light.otf") format('otf');
+    src: url(assets/font/Immortalist-Light.woff) format('woff'), 
+    url(assets/font/Immortalist-Light.otf) format('otf');
     font-display: swap;
 }
 @font-face { font-family: 'Saint-Regular';
-  src: url("assets/font/Saint\ Regular\ copy.ttf") format('ttf'),
+  src: url(assets/font/Saint\ Regular\ copy.ttf) format('ttf'),
   url(/assets/font/Saint\ Regular.woff) format('woff'),
   url(/assets/font/Saint\ Regular.otf) format('otf');
   font-display: swap;
