@@ -21,7 +21,9 @@ rgba(255, 0, 225, 0.2)
   font-family: 'Immortalist'; 
   src: url("assets/font/Immortalist-Light.otf") format('otf');
 }
-
+@font-face { font-family: 'Saint-Regular';
+  src: url("assets/font/Saint\ Regular\ copy.ttf") format('ttf');
+}
 h1 {
        font-family:Immortalist !important;
        font-size: 50px !important;
@@ -35,8 +37,8 @@ h3 {
     font-weight: normal !important;
 }
 h4 {
-  font-family:BLOB !important;
-    font-size: 300px !important;
+  font-family:Saint-Regular !important;
+    font-size: 50px !important;
 }
 body {
     padding-top: 3em;
