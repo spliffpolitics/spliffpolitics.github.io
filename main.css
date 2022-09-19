@@ -9,10 +9,6 @@
     background-position-y: center;
     background-repeat: no-repeat;
 }
-
-rgba(255, 0, 225, 0.2), 
-rgba(255, 0, 225, 0.2)
-
 @font-face {font-family: 'BLOB'; 
     src: url("assets/font/BLOB-Regular.woff") format('woff');
     font-display: swap;
@@ -42,6 +38,7 @@ h3 {
 h4 {
   font-family:Saint-Regular !important;
     font-size: 50px !important;
+    font-weight: 900;
 }
 body {
     padding-top: 3em;
