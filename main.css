@@ -3,12 +3,12 @@
     background-image: linear-gradient(
         rgba(150, 150, 150, 0.2), 
         rgba(0, 0, 0, 0.2)
-      ),
-      url(assets/img/640px-Bicycles_in_sludge_1_Antwerpen_opposite_bank\ copy.jpg);
+      );
     background-attachment: fixed;
     background-position: center;
     background-position-y: center;
     background-repeat: no-repeat;
+    position: relative;
 }
 .zeroposition {
   position: absolute;
