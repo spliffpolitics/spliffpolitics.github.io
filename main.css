@@ -113,10 +113,8 @@
 }
 .cannonIMG {
   position: absolute;
-  z-index: 0;
-  top: 20rem;
-  right: 4rem;
-  width: 15vw;
+  z-index: -2;
+  width: 280px;
 }
 @font-face {font-family: 'BLOB'; 
     src: url(assets/font/BLOB/BLOB-Regular.woff) format('woff'),
