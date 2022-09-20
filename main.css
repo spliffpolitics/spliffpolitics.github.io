@@ -86,6 +86,7 @@
   width: 28rem;
   border-radius: 3%;
   opacity: 100%;
+  max-width: 100%;
 }
 @font-face {font-family: 'BLOB'; 
     src: url(assets/font/BLOB/BLOB-Regular.woff) format('woff'),
