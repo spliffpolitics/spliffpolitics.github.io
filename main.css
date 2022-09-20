@@ -43,7 +43,7 @@
   width: 60vw;
   height: 50vh;
 }
-  .zeroposition {
+.zeroposition {
   position: absolute;
   z-index: 1;
 }
@@ -60,7 +60,24 @@
   z-index: -1;
   opacity: 10%;
 }
-  @font-face {font-family: 'BLOB'; 
+.navcontrol {
+  font-family:BLOB !important;
+  color: #000000 !important;
+  font-size: 2.4vh !important;
+}
+.navcontrol:hover {
+  color: #fb00ff !important;
+}
+.accordion-button:hover{
+  color: #fb00ff !important;
+}
+.positioner{
+  top: 34vh;
+  left: 16vw;
+  position: absolute;
+  z-index: -1;
+}
+@font-face {font-family: 'BLOB'; 
     src: url(assets/font/BLOB/BLOB-Regular.woff) format('woff'),
     url(/assets/font/BLOB/BLOB-Regular.otf) format('otf');
     font-display: swap;
@@ -110,12 +127,11 @@ h6 {
     color: #4d2b7175;
 }
 body {
-    padding-top: 3em;
+    padding-top: 0em;
 }
 ul {
     list-style-type:none;
 }
-
 /*!
  * Bootstrap  v5.2.1 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -717,13 +733,8 @@ progress {
 .img-fluid {
   max-width: 100%;
   height: auto;
-  position: relative;
-  z-index: -1;
 }
-.positioner{
-  top: -6vh;
-left: 0vw;
-}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
