@@ -114,8 +114,8 @@
 .cannonIMG {
   position: absolute;
   z-index: 0;
-  top: 13rem;
-  right: 20rem;
+  top: 20rem;
+  right: 4rem;
   width: 15vw;
 }
 @font-face {font-family: 'BLOB'; 
