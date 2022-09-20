@@ -53,6 +53,12 @@
   left: 2rem;
   z-index: -1;
 }
+.minusONEpositionABT {
+  position: absolute;
+  top: 8rem;
+  left: 2rem;
+  z-index: 2;
+}
 .minusTWOposition {
   position: absolute;
   top: 30rem;
@@ -88,9 +94,33 @@
   opacity: 70%;
   max-width: 100%;
 }
+.aboutIMG{
+  position: absolute;
+  z-index: -1;
+  top: 7rem;
+  right: 6.5rem;
+  opacity: 100%;
+  width: 60vw;
+}
+.textedt {
+  font-family: sans-serif;
+  text-align: justify;
+  font-weight: 100;
+}
+.poist{
+  position: absolute;
+  z-index: -1;
+}
+.cannonIMG {
+  position: absolute;
+  z-index: 0;
+  top: 13rem;
+  right: 20rem;
+  width: 15vw;
+}
 @font-face {font-family: 'BLOB'; 
     src: url(assets/font/BLOB/BLOB-Regular.woff) format('woff'),
-    url(/assets/font/BLOB/BLOB-Regular.otf) format('otf');
+    url(assets/font/BLOB/BLOB-Regular.otf) format('otf');
     font-display: swap;
 } 
 @font-face { font-family: 'Immortalist'; 
@@ -100,7 +130,7 @@
 }
 @font-face { font-family: 'Saint-Regular';
   src: url(/assets/font/SAINT/Saint\ Regular.woff) format('woff'),
-  url(/assets/font/SAINT/Saint\ Regular.otf) format('otf');
+  url(assets/font/SAINT/Saint\ Regular.otf) format('otf');
   font-display: swap;
 }
 @font-face { font-family: 'MAINZ'; 
@@ -146,6 +176,7 @@ ul {
 p{
   font-size: 25px;
 }
+
 /*!
  * Bootstrap  v5.2.1 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
