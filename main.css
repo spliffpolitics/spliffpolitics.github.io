@@ -72,11 +72,20 @@
   color: #fb00ff !important;
 }
 .positioner{
-  top: 50vh;
-  left: 16vw;
+  top: 51vh;
+  left: 13vw;
   position: absolute;
   z-index: -1;
-  opacity: 70%;
+  opacity: 100%;
+}
+.coverPOS{
+  position: absolute;
+  z-index: -3;
+  top: 11vh;
+  height: 11rem;
+  width: 28rem;
+  border-radius: 3%;
+  opacity: 100%;
 }
 @font-face {font-family: 'BLOB'; 
     src: url(assets/font/BLOB/BLOB-Regular.woff) format('woff'),
@@ -132,6 +141,9 @@ body {
 }
 ul {
     list-style-type:none;
+}
+p{
+  font-size: 25px;
 }
 /*!
  * Bootstrap  v5.2.1 (https://getbootstrap.com/)
