@@ -72,10 +72,11 @@
   color: #fb00ff !important;
 }
 .positioner{
-  top: 34vh;
+  top: 50vh;
   left: 16vw;
   position: absolute;
   z-index: -1;
+  opacity: 70%;
 }
 @font-face {font-family: 'BLOB'; 
     src: url(assets/font/BLOB/BLOB-Regular.woff) format('woff'),
