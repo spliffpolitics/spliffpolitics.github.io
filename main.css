@@ -84,6 +84,13 @@
   z-index: -1;
   opacity: 100%;
 }
+.positioner2 {
+  top: 76vh;
+  left: 23vw;
+  position: absolute;
+  z-index: -1;
+  opacity: 50%;
+}
 .coverPOS{
   position: absolute;
   z-index: -3;
