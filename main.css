@@ -1,8 +1,56 @@
 @charset "UTF-8";
+.video {
+    position: fixed;
+    z-index: -4;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    min-width: 100%;
+    min-height: 100%;
+}
+@keyframes sizer {
+  from {height: 0vh;}
+  to {height: 30vh;}
+}
+@keyframes txtsizer {
+  from {font-size: 0px;}
+  to {font-size: 20px;}
+}
+.aligntxt{
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  top: 58%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.alignqr{
+  position:absolute;
+  z-index: 1;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.qrsize{
+  height: 0vh;
+  animation: sizer 30s;
+  animation-delay: 20s;
+  animation-fill-mode: forwards;
+}
+.middlee{
+  position: relative;
+  height: 100vh;
+}
+.txtedit {
+  font-size: 0px;
+  animation: txtsizer 30s;
+  animation-delay: 20s;
+  animation-fill-mode: forwards; 
+}
 .background { 
     background-image: linear-gradient(
         rgba(150, 150, 150, 0.2), 
-        rgba(0, 0, 0, 0.2)
+        rgba(31, 18, 18, 0.2)
       );
     position: relative;
     z-index: -3;
@@ -10,6 +58,15 @@
     background-position: center;
     background-position-y: center;
     background-repeat: no-repeat;
+}
+.background2 { 
+  background-color: #e6e2e7;
+  position: relative;
+  z-index: -3;
+  background-attachment: fixed;
+  background-position: center;
+  background-position-y: center;
+  background-repeat: no-repeat;
 }
 .backgroundimageone {
   position: absolute;
@@ -42,6 +99,15 @@
   opacity: 40%;
   width: 60vw;
   height: 50vh;
+}
+.responsiveImagefour {
+  opacity: 100%;
+  width: 10vw;
+}
+.enter {
+  position: absolute;
+  right: 8vw;
+  top: 8vh;
 }
 .zeroposition {
   position: absolute;
@@ -181,7 +247,6 @@ ul {
 p{
   font-size: 25px;
 }
-
 /*!
  * Bootstrap  v5.2.1 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
