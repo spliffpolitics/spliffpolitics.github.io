@@ -16,6 +16,9 @@
   from {font-size: 0px;}
   to {font-size: 20px;}
 }
+.chrome{
+  font-size: 14px !important;
+}
 .aligntxt{
   position: relative;
   z-index: 1;
@@ -107,6 +110,12 @@
 .enter {
   position: absolute;
   right: 8vw;
+}
+.scrooll{
+  position: absolute;
+  right: 3vw;
+  top: 8vw;
+  font-size: 10px !important;
 }
 .zeroposition {
   position: absolute;
