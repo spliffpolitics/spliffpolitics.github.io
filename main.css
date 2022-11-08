@@ -113,8 +113,8 @@
 }
 .scrooll{
   position: absolute;
-  right: 3vw;
-  top: 8vw;
+  right: 3vw !important;
+  top: 20vh !important;
   font-size: 10px !important;
 }
 .zeroposition {
