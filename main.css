@@ -109,7 +109,10 @@
 }
 .enter {
   position: absolute;
-  right: 8vw;
+  left: 60vw;
+}
+.txtadjust{
+  font-size: 2vw !important;
 }
 .scrooll{
   position: absolute;
