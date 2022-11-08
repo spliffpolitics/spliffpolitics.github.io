@@ -20,7 +20,7 @@
   position: relative;
   z-index: 1;
   text-align: center;
-  top: 58%;
+  top: 60vh;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -107,7 +107,6 @@
 .enter {
   position: absolute;
   right: 8vw;
-  top: 8vh;
 }
 .zeroposition {
   position: absolute;
