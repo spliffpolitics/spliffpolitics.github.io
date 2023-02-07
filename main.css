@@ -113,6 +113,7 @@
 }
 .txtadjust{
   font-size: 2vw !important;
+  left: 70vw;
 }
 .scrooll{
   position: absolute;
@@ -167,6 +168,13 @@
   position: absolute;
   z-index: -2;
   opacity: 50%;
+}
+.positioner3 {
+  top: 75vh;
+  left: 55vw;
+  position: absolute;
+  z-index: -1;
+  opacity: 100%;
 }
 .coverPOS{
   position: absolute;
@@ -248,6 +256,15 @@ h6 {
     font-family:MAINZ !important;
     font-size: 6vw !important;
     color: #4d2b7175;
+}
+.h7 { 
+  font-family: sans-serif !important;
+}
+.h8 {
+  font-size: 40px !important;
+}
+.white{
+  color: #fff !important;
 }
 body {
     padding-top: 0em;
