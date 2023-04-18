@@ -104,8 +104,12 @@
   height: 50vh;
 }
 .responsiveImagefour {
+  position: relative;
+  z-index: 0;
   opacity: 100%;
-  width: 10vw;
+  width: 100%;
+  top: 0vh;
+  left: 0vw;
 }
 .enter {
   position: absolute;
@@ -129,7 +133,7 @@
   position: absolute;
   top: 8rem;
   left: 2rem;
-  z-index: -1;
+  z-index: -1 !important;
 }
 .minusONEpositionABT {
   position: absolute;
@@ -171,7 +175,7 @@
 }
 .positioner3 {
   top: 75vh;
-  left: 55vw;
+  left: 60vw;
   position: absolute;
   z-index: -1;
   opacity: 100%;
